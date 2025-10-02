@@ -14,80 +14,151 @@ const platformData = {
     { id: 'team', label: 'Our Team', icon: '👥' },
   ],
   closingDocuments: {
-    title: "whatchado GmbH - Closing Document Set",
-    subtitle: "Documents related to the closing of the whatchado GmbH financing round.",
+    title: "csd seed - Closing Document Set",
+    subtitle: "Documents related to the closing of the csd seed financing round.",
 
 
     documents: [
       {
-        title: 'Whatreorg-Bankbestätigung-vom-(7.1.2025).pdf',
+        title: '01-Cap-table(Round-8-24-Final).xlsx',
         status: '✅ Completed',
-        fileName: 'Whatreorg-Bankbestätigung-vom-(7.1.2025).pdf',
-        description: 'This document is the bank confirmation from Whatreorg, dated January 7, 2025.',
-        filePath: 'closing-set/Whatreorg-Bankbestätigung-vom-(7.1.2025).pdf',
+        fileName: '01-Cap-table(Round-8-24-Final).xlsx',
+        description: 'This document contains the final cap table for the financing round.',
+        filePath: 'closing-set/01-Cap-table(Round-8-24-Final).xlsx',
         fileSize: '2.3 MB',
       },
       {
-        title: 'Whatreorg-Eintragungsbeschluss.pdf',
+        title: '02-Shareholders-Resolution-Articles.pdf',
         status: '✅ Completed',
-        fileName: 'Whatreorg-Eintragungsbeschluss.pdf',
+        fileName: '02-Shareholders-Resolution-Articles.pdf',
         description: 'This resolution outlines the decisions made by the shareholders, including approvals for actions such as funding rounds, changes to the company structure, and other significant corporate matters.',
-        filePath: 'closing-set/Whatreorg-Eintragungsbeschluss.pdf',
+        filePath: 'closing-set/02-Shareholders-Resolution-Articles.pdf',
         fileSize: '1.8 MB',
       },
       {
-        title: 'Whatreorg-FB-Auszug-(2025-1-29).pdf',
+        title: '03-Board-Consent.pdf',
         status: '✅ Completed',
-        fileName: 'Whatreorg-FB-Auszug-(2025-1-29).pdf',
+        fileName: '03-Board-Consent.pdf',
         description: 'This document records the unanimous consent of the board of directors for a specific action or decision, often used in lieu of a formal meeting.',
-        filePath: 'closing-set/Whatreorg-FB-Auszug-(2025-1-29).pdf',
+        filePath: 'closing-set/03-Board-Consent.pdf',
         fileSize: '1.2 MB',
       },
       {
-        title: 'Whatreorg-Gesellschaftsvertrag-whatchado-GmbH.pdf',
+        title: '04-Certificate-of-Incorporation.pdf',
         status: '✅ Completed',
-        fileName: 'Whatreorg-Gesellschaftsvertrag-whatchado-GmbH.pdf',
+        fileName: '04-Certificate-of-Incorporation.pdf',
         description: 'This document certifies the incorporation of Storebox Holding GmbH, including details such as the company name, registration number, and date of incorporation.',
-        filePath: 'closing-set/Whatreorg-Gesellschaftsvertrag-whatchado-GmbH.pdf',
+        filePath: 'closing-set/04-Certificate-of-Incorporation.pdf',
         fileSize: '1.5 MB',
       },
       {
-        title: 'Whatreorg-GZ-5005-Beteiligungsvertrag.pdf',
+        title: '05-Share-Purchase-Agreement.pdf',
         status: '✅ Completed',
-        fileName: 'Whatreorg-GZ-5005-Beteiligungsvertrag.pdf',
+        fileName: '05-Share-Purchase-Agreement.pdf',
         description: 'This agreement outlines the terms and conditions for the purchase of shares in Storebox Holding GmbH.',
-        filePath: 'closing-set/Whatreorg-GZ-5005-Beteiligungsvertrag.pdf',
+        filePath: 'closing-set/05-Share-Purchase-Agreement.pdf',
         fileSize: '2.0 MB',
       },
       {
-        title: 'Whatreorg-GZ-5006-Protokoll.pdf',
+        title: '06-a-Investors-Rights-Agreement.pdf',
         status: '✅ Completed',
-        fileName: 'Whatreorg-GZ-5006-Protokoll.pdf',
+        fileName: '06-a-Investors-Rights-Agreement.pdf',
         description: 'This document confirms that a person or entity has agreed to take over certain obligations, such as company shares or financial responsibilities.',
 
-        filePath: 'closing-set/Whatreorg-GZ-5006-Protokoll.pdf',
+        filePath: 'closing-set/06-a-Investors-Rights-Agreement.pdf',
         fileSize: '1.0 MB',
       },
       {
-        title: 'Whatreorg-GZ-5007-Ubernahme-und-Beitrittserklärung.pdf',
+        title: '06-b-Investment-Side-Letter.pdf',
         status: '✅ Completed',
-        fileName: 'Whatreorg-GZ-5007-Ubernahme-und-Beitrittserklärung.pdf',
+        fileName: '06-b-Investment-Side-Letter.pdf',
         description: 'A statement from the bank confirming account ownership, available funds, or financial reliability — often required for official procedures.',
 
-        filePath: 'closing-set/Whatreorg-GZ-5007-Ubernahme-und-Beitrittserklärung.pdf',
+        filePath: 'closing-set/06-b-Investment-Side-Letter.pdf',
         fileSize: '1.4 MB',
       },
       {
-        title: 'Whatreorg-Lastschriftanzeige.pdf',
+        title: '07-ROFR-Co-Sale-Agreement.pdf',
         status: '✅ Completed',
-        fileName: 'Whatreorg-Lastschriftanzeige.pdf',
+        fileName: '07-ROFR-Co-Sale-Agreement.pdf',
         description: 'This document outlines the rights of first refusal (ROFR) and co-sale rights for existing shareholders in the event of a new investment round or sale of the company.',
 
-        filePath: 'closing-set/Whatreorg-Lastschriftanzeige.pdf',
+        filePath: 'closing-set/07-ROFR-Co-Sale-Agreement.pdf',
         fileSize: '1.6 MB',
       },
-      
-      
+      {
+        title: '08-a-Founders-Vesting-Agreement.pdf',
+        status: '✅ Completed',
+        fileName: '08-a-Founders-Vesting-Agreement.pdf',
+        description: 'This agreement outlines the vesting schedule and conditions for the founders’ shares in the company.',
+
+        filePath: 'closing-set/08-a-Founders-Vesting-Agreement.pdf',
+        fileSize: '1.0 MB',
+      },
+      {
+        title: '08-b-Joint-Escrow-Instructions.pdf',
+        status: '✅ Completed',
+        fileName: '08-b-Joint-Escrow-Instructions.pdf',
+        description: 'This agreement establishes the terms for joint escrow arrangements related to the founders’ shares.',
+
+        filePath: 'closing-set/08-b-Joint-Escrow-Instructions.pdf',
+        fileSize: '1.2 MB',
+      },
+      {
+        title: '08-c-Stock-Assignment-(Krause).pdf',
+        status: '✅ Completed',
+        fileName: '08-c-Stock-Assignment-(Krause).pdf',
+        description: 'This document outlines the assignment of stock ownership for the founders, including details on the number of shares and ownership percentages.',
+
+        filePath: 'closing-set/08-c-Stock-Assignment-(Krause).pdf',
+        fileSize: '1.5 MB',
+      }
+      , {
+        title: '08-d-Stock-Assignment-(knallgrau).pdf',
+        status: '✅ Completed',
+        fileName: '08-d-Stock-Assignment-(knallgrau).pdf',
+        description: 'This document outlines the assignment of stock ownership for the founders, including details on the number of shares and ownership percentages.',
+
+        filePath: 'closing-set/08-d-Stock-Assignment-(knallgrau).pdf',
+        fileSize: '1.5 MB',
+      }
+      , {
+        title: '08-e-Stock-Assignment-(Hafenscher).pdf',
+        status: '✅ Completed',
+        fileName: '08-e-Stock-Assignment-(Hafenscher).pdf',
+        description: 'This document outlines the assignment of stock ownership for the founders, including details on the number of shares and ownership percentages.',
+
+        filePath: 'closing-set/08-e-Stock-Assignment-(Hafenscher).pdf',
+        fileSize: '1.5 MB',
+      }
+      , {
+        title: '09-Voting-Agreement.pdf',
+        status: '✅ Completed',
+        fileName: '09-Voting-Agreement.pdf',
+        description: 'This document outlines the voting rights and procedures for the founders, including decision-making processes and quorum requirements.',
+
+        filePath: 'closing-set/09-Voting-Agreement.pdf',
+        fileSize: '1.5 MB',
+      }
+      , {
+        title: '10-Shareholders-Resolution-(New-Director).pdf',
+        status: '✅ Completed',
+        fileName: '10-Shareholders-Resolution-(New-Director).pdf',
+        description: 'This document outlines the resolution passed by the shareholders to appoint a new director to the board.',
+
+        filePath: 'closing-set/10-Shareholders-Resolution-(New-Director).pdf',
+        fileSize: '1.5 MB',
+      }
+      , {
+        title: '11-Notice-of-Issuance.pdf',
+        status: '✅ Completed',
+        fileName: '11-Notice-of-Issuance.pdf',
+        description: 'This document provides notice of the issuance of new shares to the founders and outlines the terms of the issuance  .',
+
+        filePath: 'closing-set/11-Notice-of-Issuance.pdf',
+        fileSize: '1.5 MB',
+      }
+
     ]
   },
   team: {
